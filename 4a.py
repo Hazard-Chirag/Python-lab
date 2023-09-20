@@ -39,14 +39,14 @@ def main():
     print("Enter elements of an array")
     List=[]
     for i in range(n):
-        List.append(int(input))
+        List.append(int(input()))
     print("Initial array:\n",List)
     print("Merge sorted array: \n",mergesort(List))
     n=int(input("Enter size of an array\n"))
     print("Enter elements of an array")
     for i in range(n):
-        List.append(int(input))
-    print("Initial array:\n",List)
-    InsertionSort(List)
-    print("Insertion sorted array:\n",List)
+        list.append(int(input()))
+    print("Initial array:\n",list)
+    InsertionSort(list)
+    print("Insertion sorted array:\n",list)
 main()
