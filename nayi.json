@@ -1,0 +1,10 @@
+{
+    "main":{
+        "temp":47,
+        "feelslike":45,
+        "humidity":67
+    },
+    "weather":{
+        "desc":"Clear"
+    }
+}
